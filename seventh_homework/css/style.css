@@ -1,0 +1,28 @@
+body {
+    background: #171717;
+}
+
+.text {
+    color: #fff;
+    font-size: 40px;
+}
+
+.main__container--white {
+    background: #ffffff;
+    height: 100px;
+    border-radius: 10px;
+    position: fixed;
+    left: 50%;
+    right: 50px;
+    bottom: 100px;
+}
+
+.circle--red {
+    background: #d00b0b;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    position: relative;
+    left: 10%;
+    bottom:50% ;
+}
