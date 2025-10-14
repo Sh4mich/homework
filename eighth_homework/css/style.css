@@ -1,0 +1,41 @@
+body {
+    background: #2c2c2c;
+}
+
+.main__title {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+div {
+    width: 300px;
+    margin: 0 auto;
+}
+
+
+div::before {
+    content: '';
+    display: block;
+    background: #c75252;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 25px;
+    left: 725px;
+}
+div::after {
+    content: '';
+    display: block;
+    background: #5656d3;
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    border: 3px solid #fff;
+    position: absolute;
+    top: 25px;
+    right: 725px;
+}
