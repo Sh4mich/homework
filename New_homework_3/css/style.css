@@ -1,0 +1,71 @@
+fieldset {
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 550px;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 28px;
+    padding: 5px 0px 0px 10px;
+}
+
+span {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 28px;
+    padding: 2px 2px;
+}
+
+.label {
+    display: block;
+    margin: 20px 0px 0px 10px;
+}
+
+.input {
+    border-radius: 10px;
+    width: 420px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+textarea {
+    border-radius: 10px;
+    border: 2px solid #000;
+    width: 420px;
+    min-height: 40px;
+    height: 60px;
+    max-height: 400px;
+    resize: vertical;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    padding-left: 20px;
+    padding-top: 10px ;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.agreement {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+    
+}
+
+.button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
