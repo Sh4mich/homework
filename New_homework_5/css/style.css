@@ -1,0 +1,50 @@
+html {
+    font-family: sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1680px;
+    min-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+    border-bottom: solid #bebcbc;
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.article-icon {
+    display: flex;
+    margin: 10px;
+}
+
+a {
+    color: black;
+}
+
+.nav {
+    display: flex;
+    font-size: 18px;
+    gap: 50px;
+    list-style: none;
+    color: black;
+    cursor: pointer;
+}
+
+.article-tel {
+    display: flex;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.number {
+    text-decoration: none;
+}
